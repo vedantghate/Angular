@@ -1,0 +1,25 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(162, 202, 202);
+    margin-bottom: 2rem;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 3rem;
+    z-index: 2;
+    .text{
+        margin: 0.5rem;
+    }
+
+    .logo{
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        background-color: chocolate;
+        font-size: 0.5rem;
+        color: wheat;
+        margin: 0.5rem;
+    }
+}

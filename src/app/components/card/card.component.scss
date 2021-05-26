@@ -1,0 +1,36 @@
+.card{
+    width: 15rem;
+    height: 6rem;
+    border: 1px solid rgb(3, 38, 85);
+    font-size: 0.8rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    overflow: hidden;
+}
+
+.info{
+    display: none;
+    overflow: hidden;
+    width: 5rem;
+    height: 3rem;
+    border: 1px solid rgb(3, 38, 85);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    background-color: burlywood;
+    position: absolute;
+    top: 0;
+    left: 14.2rem;
+    z-index: 1;
+}
+
+.infoShow{
+    display: block;
+    overflow: hidden;
+}
+
+.reverseInfo{
+    position: absolute;
+    top: 0;
+    left: -6.4rem !important;
+}

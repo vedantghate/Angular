@@ -1,0 +1,5 @@
+<div class="wrapper">
+    <div class="item" *ngFor="let item of items; let i = index">
+        <app-card class="cardContainer" [idx]="i" [num]="item"></app-card>
+    </div>
+</div>

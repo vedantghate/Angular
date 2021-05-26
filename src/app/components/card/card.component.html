@@ -1,0 +1,20 @@
+<div class="card" (mouseenter)="show = !show" (mouseleave)="show = !show">
+    <h4>Card No. {{num}}</h4>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor tortor quis enim dictum viverra.
+        Vestibulum in congue arcu. Curabitur consectetur sodales nibh, eget laoreet mauris suscipit sed. Nunc
+        bibendum lectus ligula, quis imperdiet orci rutrum ut. Donec gravida tempor turpis facilisis sodales.
+        Quisque vitae eros accumsan, molestie dolor a, tempus nunc. Phasellus egestas dictum vulputate. Aliquam
+        vel iaculis velit, eget egestas justo. Curabitur sed ligula ultrices, elementum lacus quis, ornare
+        libero. Sed id venenatis eros. Sed bibendum mi ac sapien vehicula accumsan at id quam. Aliquam porta
+        turpis risus, eget maximus erat euismod a. Mauris nibh eros, suscipit non dapibus eget, cursus nec nunc.
+    </p>
+</div>
+<div class="info" [ngClass]="{'infoShow' : show, 'reverseInfo' : (idx+1) % 6 == 0}">
+    <h5>Info No. {{num}}</h5>
+    <p>
+        Sed quis ligula elementum, imperdiet massa sit amet, placerat augue. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Donec eleifend, ipsum vel vulputate vehicula, velit felis efficitur ligula,
+        eu porta arcu urna ut purus.
+    </p>
+</div>
